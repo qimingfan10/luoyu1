@@ -1,4 +1,25 @@
-baseURL = 'https://oucluoyu.top/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'https://oucluoyu.top/' # 您的网站根 URL
+languageCode = 'en-us'          # 网站语言代码
+title = '欢迎拜访我的个人博客'      # 网站标题，显示在浏览器标签页和网站顶部（根据主题不同）
+theme = 'ananke'                # 使用的主题名称
+
+# Ananke 主题的参数设置，用于自定义主题的一些元素
+[params]
+  # description 用于设置首页横幅中间的文字，Ananke 主题会使用这里的内容
+  description = "Hello, I am Luoyu"
+
+  # copyright 用于设置网站页脚的版权信息
+  copyright = "@luoyu2025"
+
+  # 您可能还会在这里添加其他主题相关的参数设置，例如 social 链接等
+
+# 如果您的主题或网站有其他配置部分，会继续在这里列出
+# 例如：
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
