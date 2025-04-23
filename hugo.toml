@@ -1,4 +1,4 @@
-baseURL = 'https://oucluoyu.top/' # 您的网站根 URL
+baseURL = 'https://qimingfan10.github.io/' # 您的网站根 URL
 languageCode = 'en-us'          # 网站语言代码
 title = 'Luoyu'      # 网站标题，显示在浏览器标签页和网站顶部（根据主题不同）
 theme = 'ananke'                # 使用的主题名称
