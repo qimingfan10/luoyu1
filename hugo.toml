@@ -1,0 +1,4 @@
+baseURL = 'https://oucluoyu.top/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
