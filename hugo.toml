@@ -1,6 +1,6 @@
 baseURL = 'https://oucluoyu.top/' # 您的网站根 URL
 languageCode = 'en-us'          # 网站语言代码
-title = '欢迎拜访我的个人博客'      # 网站标题，显示在浏览器标签页和网站顶部（根据主题不同）
+title = 'Luoyu'      # 网站标题，显示在浏览器标签页和网站顶部（根据主题不同）
 theme = 'ananke'                # 使用的主题名称
 
 # Ananke 主题的参数设置，用于自定义主题的一些元素
